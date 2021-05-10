@@ -25,6 +25,7 @@
    <!-- Script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/aframe/0.7.1/aframe.min.js"></script>
 
    <!-- Favicons
 	================================================== -->
@@ -170,8 +171,15 @@
 
       </div> <!-- End Education -->
 
+       <!-- VR
+      ----------------------------------------------- -->
 
-     
+      <a-scene>
+         <img id="panorama" src="1.jpg"/>
+         <a-sky src="#panorama" rotation="0 -90 0"></a-sky>
+      </a-scene>
+ <!-- VR
+      ----------------------------------------------- -->
 
       <!-- Skills
       ----------------------------------------------- -->
